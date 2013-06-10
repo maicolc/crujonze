@@ -1,0 +1,155 @@
+@import "bourbon";
+@import "bootstrap";
+
+nav {
+	margin-top: 30px;
+	
+	a {
+		display: block;
+		padding: 15px 0 15px 0;
+		color: #DAD8D6;
+		font-size: 14px;
+		font-weight: bold;
+		border-top: solid #DAD8D6 1px;
+	}
+	
+	a:hover {
+		color: #19BBBD;
+		text-decoration: none;
+	}
+	
+}
+
+.main-nav {
+	position: fixed;
+	padding-top: 25px;
+	width: 240px;
+}
+
+.contact {
+	margin-top: 60px;
+	padding-left: 60px;
+}
+
+.span9 {
+	background: #f8f8f8;
+	background-image: url(../img/content-bg.png);
+	background-repeat: repeat-y;
+	padding-top: 45px;
+}
+
+article {
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+
+.article-break {
+	border-top: solid #DAD8D6 1px;
+	margin-bottom: 20px;
+}
+
+.triangle {
+	position: absolute;
+	top: -20px;
+	left: 40px;
+}
+
+.copy {
+	background: #fff;
+	border: solid #DAD8D6 1px;
+	border-right: solid #dad8d6 20px;
+	margin-top: 25px;
+	padding: 5px 45px 35px 25px;
+	position: relative;
+}
+
+.break {
+	margin-bottom: 20px;
+}
+
+.links {
+	margin: -15px 0 80px 25px;
+	position: relative;
+	
+	a {
+		color: white;
+		display: inline-block;
+		font-size: 11.9px;
+		font-weight: bold;
+		padding: 5px 0 5px 15px;
+		width: 140px;
+	}
+	
+	a:hover {
+		background-color: #19BBBD;
+		text-decoration: none;
+	}
+	
+}
+
+.link-orange {	
+	background-color: #EF512C;
+	margin-right: 15px;
+}
+
+.link-gray {
+	background-color: #DAD8D6;	
+}
+
+h1 {
+	color: #EF512C;
+	display: inline-block;
+}
+
+h3 {
+	color: #FAB815;
+	display: inline-block;
+}
+
+h6 {
+	color: #19BBBD;
+	display: inline-block;
+}
+
+#form {
+	
+}
+
+#mc_embed_signup {
+	width: 600px;
+}
+
+#mce-EMAIL {
+	border: solid #DAD8D6 1px;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	height: 25px;	
+	width: 463px;
+}
+
+#mc-embedded-subscribe {
+	border: none;
+	float: left;
+	background: #EF512C;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	height: 35px;
+	width: 97px;
+	margin-left: -3px;
+}
+
+#mc-embedded-subscribe:hover {
+	background: #19BBBD;
+}
+
+#mc-embedded-subscribe-form {
+	margin: 0;
+}
+
+.clear {
+	clear: both;
+	
+}
